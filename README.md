@@ -1,14 +1,13 @@
-# Lokesh Python Toolkit
+# 365 Mini Projects
 
-Small Python utilities with tests, sample inputs, and clear verification steps.
+Small, real utilities built one day at a time, with runnable code and repeatable verification.
 
-## Published Projects
+## Recent Builds
 
-| Project | What it does | Verification |
-| --- | --- | --- |
-| [Markdown Link Checker](projects/2026-06-24-markdown-link-checker) | Finds duplicate anchors, empty URLs, and malformed Markdown links in local `.md` files. | `python3 -m unittest discover projects/2026-06-24-markdown-link-checker -v` |
-| [Task Triage CLI](projects/2026-06-24-task-triage-cli) | Sorts plain-text tasks by priority, due date, and effort so the next best task is easy to pick. | `python3 -m unittest discover projects/2026-06-24-task-triage-cli -v` |
+| Date | Project | Description | Verification |
+| --- | --- | --- | --- |
+| 2026-07-20 | [CSV Schema Drift Detector](projects/2026-07-20-csv-schema-drift-detector) | Detects added, removed, and type-shifted CSV columns for data-pipeline checks. | `python3 -m unittest discover projects/2026-07-20-csv-schema-drift-detector -v` |
+| 2026-06-24 | [Markdown Link Checker](projects/2026-06-24-markdown-link-checker) | Finds duplicate anchors, empty URLs, and malformed Markdown links. | `python3 -m unittest discover projects/2026-06-24-markdown-link-checker -v` |
+| 2026-06-24 | [Task Triage CLI](projects/2026-06-24-task-triage-cli) | Sorts tasks by priority, due date, and effort. | `python3 -m unittest discover projects/2026-06-24-task-triage-cli -v` |
 
-## Portfolio Focus
-
-This repository is a practical Python toolkit for small operational utilities: command-line tools, deterministic behavior, sample input files, and repeatable test commands.
+Each project lives in a dated folder under `projects/` and uses minimal dependencies.
