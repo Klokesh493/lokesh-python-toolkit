@@ -6,6 +6,7 @@ Small, real utilities built one day at a time, with runnable code and repeatable
 
 | Date | Project | Description | Verification |
 | --- | --- | --- | --- |
+| 2026-07-21 | [Env Contract Checker](projects/2026-07-21-env-contract-checker) | Validates `.env` files against an example contract without exposing secret values. | `python3 -m unittest discover projects/2026-07-21-env-contract-checker -v` |
 | 2026-07-20 | [CSV Schema Drift Detector](projects/2026-07-20-csv-schema-drift-detector) | Detects added, removed, and type-shifted CSV columns for data-pipeline checks. | `python3 -m unittest discover projects/2026-07-20-csv-schema-drift-detector -v` |
 | 2026-06-24 | [Markdown Link Checker](projects/2026-06-24-markdown-link-checker) | Finds duplicate anchors, empty URLs, and malformed Markdown links. | `python3 -m unittest discover projects/2026-06-24-markdown-link-checker -v` |
 | 2026-06-24 | [Task Triage CLI](projects/2026-06-24-task-triage-cli) | Sorts tasks by priority, due date, and effort. | `python3 -m unittest discover projects/2026-06-24-task-triage-cli -v` |
