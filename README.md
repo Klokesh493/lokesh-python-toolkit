@@ -13,3 +13,7 @@ Small, real utilities built one day at a time, with runnable code and repeatable
 | 2026-06-24 | [Task Triage CLI](projects/2026-06-24-task-triage-cli) | Sorts tasks by priority, due date, and effort. | `python3 -m unittest discover projects/2026-06-24-task-triage-cli -v` |
 
 Each project lives in a dated folder under `projects/` and uses minimal dependencies.
+
+## Local verification
+
+Run `make verify` with Make and Python 3 installed. Each dated utility is tested in its own directory.
