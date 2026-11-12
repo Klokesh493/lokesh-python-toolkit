@@ -18,6 +18,10 @@ Each project lives in a dated folder under `projects/` and uses minimal dependen
 
 Run `make verify` with Make and Python 3 installed. Each dated utility is tested in its own directory.
 
+## Business problem
+
+Small operational checks are hard to reuse when their inputs and tests are scattered. Each utility needs a documented command and an isolated fixture.
+
 ## Project walkthrough
 
 ```mermaid

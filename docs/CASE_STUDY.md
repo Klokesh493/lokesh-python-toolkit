@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Collect small repeatable checks for Markdown, task lists, schema drift, environment contracts, and JSONL.
+Small operational checks are hard to reuse when their inputs and tests are scattered. Each utility needs a documented command and an isolated fixture.
 
 ## Reproduce the workflow
 
