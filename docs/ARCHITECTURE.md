@@ -4,10 +4,11 @@ Collect small repeatable checks for Markdown, task lists, schema drift, environm
 
 ```mermaid
 flowchart LR
-    N0["Utility-specific sample"]
-    N1["Dedicated Python CLI"]
-    N2["Findings and isolated unit tests"]
-    N0 --> N1 --> N2
+    A["Choose a utility from README"]
+    B["Provide tool-specific fixture"]
+    C["Execute the utility CLI"]
+    D["Inspect findings and run isolated tests"]
+    A --> B --> C --> D
 ```
 
 ## Operational boundaries

@@ -20,4 +20,13 @@ Run `make verify` with Make and Python 3 installed. Each dated utility is tested
 
 ## Project walkthrough
 
+```mermaid
+flowchart LR
+    A["Choose a utility from README"]
+    B["Provide tool-specific fixture"]
+    C["Execute the utility CLI"]
+    D["Inspect findings and run isolated tests"]
+    A --> B --> C --> D
+```
+
 [Architecture and data flow](docs/ARCHITECTURE.md) · [Business problem, demo, and verification](docs/CASE_STUDY.md)
