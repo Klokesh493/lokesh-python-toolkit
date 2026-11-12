@@ -34,3 +34,20 @@ flowchart LR
 ```
 
 [Architecture and data flow](docs/ARCHITECTURE.md) · [Business problem, demo, and verification](docs/CASE_STUDY.md)
+
+## Run the project
+
+### Local setup
+
+Run `make verify` with Python 3 and Make installed.
+
+Each utility uses its own fixture and test command from the README index.
+
+### Run tests
+
+[Verification report](reports/verification.md) · [Business problem, sample behavior, and limitations](docs/CASE_STUDY.md)
+
+
+### Limitations
+
+The verification report covers the bundled local examples. See the [case study](docs/CASE_STUDY.md) for project-specific assumptions and operating limits.
