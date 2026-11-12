@@ -17,3 +17,7 @@ Each project lives in a dated folder under `projects/` and uses minimal dependen
 ## Local verification
 
 Run `make verify` with Make and Python 3 installed. Each dated utility is tested in its own directory.
+
+## Project walkthrough
+
+[Architecture and data flow](docs/ARCHITECTURE.md) · [Business problem, demo, and verification](docs/CASE_STUDY.md)
