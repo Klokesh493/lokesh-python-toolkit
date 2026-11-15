@@ -2,6 +2,8 @@
 
 Small, real utilities built one day at a time, with runnable code and repeatable verification.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a set of independent Python command-line utilities for Markdown links, task triage, CSV schema drift, environment contracts, and JSONL data quality. Each utility has its own sample input and tests. The root Makefile runs the suites separately so each tool can be verified and reused on its own.
